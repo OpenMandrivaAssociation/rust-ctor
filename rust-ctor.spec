@@ -52,7 +52,6 @@ This package contains library source intended for building other packages
 which use "%{crate}" crate.
 
 %files          devel
-%doc ../README.md
 %{cargo_registry}/%{crate}-%{version_no_tilde}/
 
 %package     -n %{name}+default-devel
