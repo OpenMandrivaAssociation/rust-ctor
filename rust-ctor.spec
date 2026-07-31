@@ -4,7 +4,7 @@
 %global crate ctor
 
 Name:           rust-%{crate}
-Version:        0.1.20
+Version:        1.0.12
 Release:        1%{?dist}
 Summary:        __attribute__((constructor)) for Rust
 
